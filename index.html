@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SHEMA Bruce - Portfolio</title>
+  <style>
+    body {
+      background-color: darkblue;
+      color: white;
+      text-align: center;
+      font-family: Arial;
+    }
+    h1 {
+      font-size: 50px;
+      margin-top: 40px;
+    }
+    h2 {
+      color: lightblue;
+    }
+    p {
+      color: lightgray;
+      font-size: 18px;
+    }
+    ul {
+      list-style: none;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    button {
+      background-color: green;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    a {
+      color: lightblue;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="name">SHEMA Bruce</h1>
+  <h2>Mining Engineer & Junior Web Developer</h2>
+  <p>Based in Kigali, Rwanda</p>
+
+  <h2>About Me</h2>
+  <p>I am a certified mining engineer learning web development. I specialize in 3Ts and Gold operations across Rwanda and the Great Lakes region.</p>
+
+  <h2>My Skills</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Mining Engineering</li>
+    <li>ITSCI Compliance</li>
+  </ul>
+
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:bruceshema1@gmail.com">bruceshema1@gmail.com</a></p>
+  <p>Phone: +250 787 035 212</p>
+  <a href="https://www.github.com/bruceshema1">See my work on GitHub</a>
+
+  <br><br>
+  <button id="hire-btn">Hire Me</button>
+  <p id="hire-msg"></p>
+
+  <script>
+    document.getElementById("hire-btn").onclick = function() {
+      document.getElementById("hire-msg").textContent = "Thank you for your interest! I will get back to you within 24 hours.";
+    }
+  </script>
+
+</body>
+</html>
